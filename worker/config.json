@@ -1,0 +1,244 @@
+{
+  "glycomod_link": "https://web.expasy.org/glycomod/",
+  "gmod_post_link": "https://web.expasy.org/cgi-bin/glycomod/glycomod.pl",
+  "UA": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "col_names": [
+    "EXP_mass",
+    "Tag",
+    "Tag_mass",
+    "Comp_SHORT",
+    "Comp_LONG",
+    "[MH]+",
+    "Error",
+    "[MTagH]+",
+    "[MTagNa]+",
+    "[MTagK]+",
+    "[MTagNH4]+",
+    "[MTagH2]2+",
+    "[MTagHNa]2+",
+    "[MTagHK]2+",
+    "[MTagNa2]2+"
+  ],
+  "Tolerance": "0.5",
+  "results_folder": "null",
+  "chromedriver_path": "null",
+  "mono_masses_underivatized": {
+    "(Hex)": 162.0528,
+    "(Man)": 162.0528,
+    "(HexNAc)": 203.0794,
+    "(GlcNAc)": 203.0794,
+    "(GalNAc)": 203.0794,
+    "(Deoxyhexose)": 146.0579,
+    "(Pent)": 132.0423,
+    "(NeuAc)": 291.0954,
+    "(NeuGc)": 307.0903,
+    "(KDN)": 250.0689,
+    "(HexA)": 176.03209,
+    "Acetate": 42.0106,
+    "H+": 1.007276,
+    "H": 1.00783,
+    "H2O": 18.01056,
+    "H3O+": 19.01783,
+    "K+": 38.963707,
+    "Na+": 22.989768,
+    "(Phos)": 79.9663,
+    "(Sulph)": 79.9568,
+    "TFA": 112.9850391,
+    "ACN": 41.02655,
+    "NH4+": 18.04,
+    "M": 0
+  },
+  "avg_masses_underivatized": {
+    "(Hex)": 162.1424,
+    "(Man)": 162.1424,
+    "(HexNAc)": 203.1950,
+    "(GlcNAc)": 203.1950,
+    "(GalNAc)": 203.1950,
+    "(Deoxyhexose)": 146.1430,
+    "(Pent)": 132.1161,
+    "(NeuAc)": 291.2579,
+    "(NeuGc)": 307.2573,
+    "(KDN)": 250.2053,
+    "(HexA)": 176.1259,
+    "Acetate": 42.0373,
+    "H+": 1.00739,
+    "H": 1.00794,
+    "H2O": 18.01524,
+    "H3O+": 19.02263,
+    "K+": 39.0983,
+    "Na+": 22.998977,
+    "(Phos)": 79.9799,
+    "(Sulph)": 80.0642,
+    "TFA": 113.0160096,
+    "M": 0
+  },
+  "reducing_end_tag_mono": {
+    "ProA": 219.173,
+    "2-AB": 120.069
+  },
+  "reducing_end_tag_avg": {
+    "ProA": 219.326,
+    "2-AB": 120.152
+  },
+  "reducing_end_tag_mono_full": {
+    "ProA": 235.168457,
+    "2-AB": 136.063660
+  },
+  "reducing_end_tag_avg_full": {
+    "ProA": 235.325,
+    "2-AB": 136.151
+  },
+  "gm_adduct_form": {
+    "H+": "mplus",
+    "Na+": "na",
+    "K+": "k",
+    "Pos_other": "otherplus",
+    "H-": "mminus",
+    "M": "neutral",
+    "Ac": "acetate",
+    "TFA": "tfa",
+    "Neg_other": "otherminus"
+  },
+  "adducts": {
+    "H+": [
+      1.007276,
+      1
+    ],
+    "Na+": [
+      22.989768,
+      1
+    ],
+    "K+": [
+      38.963707,
+      1
+    ],
+    "NH4+": [
+      18.04,
+      1
+    ],
+    "2H2+": [
+      2.014552,
+      2
+    ],
+    "HK2+": [
+      39.970983,
+      2
+    ],
+    "HNa2+": [
+      23.997044,
+      2
+    ],
+    "2K2+": [
+      77.927414,
+      2
+    ],
+    "2Na2+": [
+      45.979536,
+      2
+    ],
+    "NaK2+": [
+      61.953475,
+      2
+    ],
+    "NH4H2+": [
+      19.047276,
+      2
+    ]
+  },
+  "gmod_Nglycan_form": {
+    "free": "Free / PNGase released oligosaccharides",
+    "derivatized": "Derivatised oligosaccharides",
+    "reduced": "Reduced oligosaccharides",
+    "endoF_H": "ENDO H or ENDO F released oligosaccharides",
+    "glycoPeptides": "Glycopeptides (motif N-X-S/T/C (X not P) will be used)"
+  },
+  "monosacch_residue_deriv": {
+    "underiv": "underivatised",
+    "perMe": "permethylated",
+    "perAc": "peracetylated"
+  },
+  "gmod_form_fields": [
+    "Masses",
+    "masses",
+    "name",
+    "Tolerance",
+    "D_or_ppm",
+    "adducts",
+    "adduct_name1",
+    "adduct_mass1",
+    "adduct_name",
+    "adduct_mass",
+    "linked",
+    "Nform",
+    "Oform",
+    "protein",
+    "enzyme",
+    "MC",
+    "reagents",
+    "peptidemasses",
+    "derivative_name",
+    "derivative_mass",
+    "dummy",
+    "mode",
+    "Hexpres",
+    "Hexnb1",
+    "Hexnb2",
+    "HexNAcpres",
+    "HexNAcnb1",
+    "HexNAcnb2",
+    "Deoxyhexosepres",
+    "Deoxyhexosenb1",
+    "Deoxyhexosenb2",
+    "NeuAcpres",
+    "NeuAcnb1",
+    "NeuAcnb2",
+    "NeuGcpres",
+    "NeuGcnb1",
+    "NeuGcnb2",
+    "Pentpres",
+    "Pentnb1",
+    "Pentnb2",
+    "Sulphpres",
+    "Sulphnb1",
+    "Sulphnb2",
+    "Phospres",
+    "Phosnb1",
+    "Phosnb2",
+    "KDNpres",
+    "KDNnb1",
+    "KDNnb2",
+    "HexApres",
+    "HexAnb1",
+    "HexAnb2"
+  ],
+  "translate": {
+    "(Hex)": "H",
+    "(Man)": "H",
+    "(HexNAc)": "N",
+    "(GlcNAc)": "N",
+    "(Deoxyhexose)": "F",
+    "(NeuAc)": "S",
+    "(NeuGc)": "S",
+    "(Pent)": "P",
+    "(Sulph)": "s",
+    "(Phos)": "p",
+    "(KDN)": "k",
+    "(HexA)": "A"
+  },
+  "default_mono": {
+    "Hexpres": 2,
+    "HexNAcpres": 2,
+    "Deoxyhexosepres": 1,
+    "NeuAcpres": 1,
+    "NeuGcpres": 0,
+    "Pentpres": 0,
+    "Sulphpres": 0,
+    "Phospres": 0,
+    "KDNpres": 0,
+    "HexApres": 0
+  },
+  "default_occurrences": {
+    "HexNAcnb1": 2,
+    "Hexnb1": 3
+  }
+}
