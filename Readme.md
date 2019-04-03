@@ -40,6 +40,11 @@ If you have any picked peaks clicking Refresh loads them to the table. Clicking 
 
 Clicking Add Peak changes the peak number (increases it by 1).
 
+### Making sense of the data
+
+Clicking Run checks online resources for matching masses and reports results.
+This tool can useful for compositional analysis of glycans and proteins. 
+
 ## See it yourself:
 Please use a virtual env. Install dependencies using:
 ```
